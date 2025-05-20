@@ -1,0 +1,17 @@
+import Link from "next/link";
+import MyFirstComponent from "../_components/my-first-component";
+
+export default function WeekTwoPage(){
+    return(
+        <div>
+            <header></header>
+            <h1>My Second Page!</h1>
+            <p>This is the second page of my new React app!</p>
+            <MyFirstComponent />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="../">Back</Link>
+            <footer></footer>
+        </div>
+    );
+}
