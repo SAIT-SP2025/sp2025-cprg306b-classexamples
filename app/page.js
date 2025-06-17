@@ -20,6 +20,7 @@ export default function Home() {
         <li><Link href="./week-5/" className={linkStyles}>Week 5 - Controlled Component</Link></li>
         <li><Link href="./week-6/arrays" className={linkStyles}>Week 6 - Array Methods</Link></li>
         <li><Link href="./week-6/contact" className={linkStyles}>Week 6 - Handling Lists</Link></li>
+        <li><Link href="./week-7/" className={linkStyles}>Week 7 - Managing State</Link></li>
       </ul>
     </main>
   );
