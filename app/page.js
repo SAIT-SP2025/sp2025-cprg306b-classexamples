@@ -24,6 +24,7 @@ export default function Home() {
         <li><Link href="./week-8/" className={linkStyles}>Week 8 - Fetching Data</Link></li>
         <li><Link href="./week-9/" className={linkStyles}>Week 9 - Firebase Auth</Link></li>
         <li><Link href="./week-10/" className={linkStyles}>Week 10 - Cloud Firestore</Link></li>
+        <li><Link href="./week-12/part-1" className={linkStyles}>Week 12 - API Routes</Link></li>
       </ul>
     </main>
   );
